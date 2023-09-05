@@ -15,10 +15,10 @@ MonoBehaviour:
   Path: ../Downloads/Tuki/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638295009170626713
+  lastModified: 638295028323535655
   FileSizes:
   - Name: Desktop
-    Value: 1574
+    Value: 1816
   Exists: 1
 --- !u!114 &11400000
 MonoBehaviour:
@@ -42,8 +42,35 @@ MonoBehaviour:
   - {fileID: -6264996684859659093}
   StringsBanks:
   - {fileID: 7765149284396773335}
-  cacheTime: 638295009170646656
+  cacheTime: 638295028323555464
   cacheVersion: 131605
+--- !u!114 &3036309232354401686
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Zona/Tuki
+  m_EditorClassIdentifier: 
+  Name: Tuki
+  StudioPath: 
+  Min: 0
+  Max: 2
+  Default: 0
+  ID:
+    data1: 3027618797
+    data2: 1219196276
+  Type: 2
+  IsGlobal: 0
+  Labels:
+  - Value A
+  - Value B
+  - Value C
+  Exists: 1
 --- !u!114 &7765149284396773335
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -59,10 +86,10 @@ MonoBehaviour:
   Path: ../Downloads/Tuki/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638295009170646656
+  lastModified: 638295028323555464
   FileSizes:
   - Name: Desktop
-    Value: 754
+    Value: 800
   Exists: 1
 --- !u!114 &8392903532551690601
 MonoBehaviour:
@@ -87,7 +114,8 @@ MonoBehaviour:
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
-  Parameters: []
+  Parameters:
+  - {fileID: 3036309232354401686}
   MinDistance: 1
   MaxDistance: 20
   Length: 0
