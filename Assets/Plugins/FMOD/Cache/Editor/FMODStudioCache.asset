@@ -42,10 +42,10 @@ MonoBehaviour:
   Path: ../Downloads/Tuki/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638295145351536291
+  lastModified: 638295149844975861
   FileSizes:
   - Name: Desktop
-    Value: 1430240
+    Value: 1431008
   Exists: 1
 --- !u!114 &-5248314139490621604
 MonoBehaviour:
@@ -114,7 +114,7 @@ MonoBehaviour:
   StudioPath: parameter:/Volume
   Min: 0
   Max: 1
-  Default: 0
+  Default: 1
   ID:
     data1: 2465329218
     data2: 1733965579
@@ -174,7 +174,7 @@ MonoBehaviour:
   - {fileID: -6264996684859659093}
   StringsBanks:
   - {fileID: 7765149284396773335}
-  cacheTime: 638295145351546262
+  cacheTime: 638295149844985836
   cacheVersion: 131605
 --- !u!114 &3093316150888249886
 MonoBehaviour:
@@ -270,8 +270,8 @@ MonoBehaviour:
   Path: ../Downloads/Tuki/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638295145351546262
+  lastModified: 638295149844985836
   FileSizes:
   - Name: Desktop
-    Value: 1128
+    Value: 1048
   Exists: 1
