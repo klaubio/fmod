@@ -7,6 +7,7 @@ public class InputManager : MonoBehaviour
 {
    
     public static event System.Action<Vector2> OnPlayerMovement;
+    public static event System.Action OnPause;
 
 
     [SerializeField] private PlayerInput playerinput;
@@ -36,6 +37,11 @@ public class InputManager : MonoBehaviour
 
                 Vector2 input = context.ReadValue<Vector2>();
                 OnPlayerMovement?.Invoke(input);
+                break;
+
+           case "Pause":
+                 
+                if(context.started)OnPause?.Invoke();
                 break;
         }
     }

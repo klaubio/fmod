@@ -9,6 +9,10 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private Rigidbody rb;
     [SerializeField] private float speed;
     [SerializeField] private float rotation;
+    [SerializeField] FMOD.Studio.EventInstance volumen;
+
+    FMOD.Studio.Bus music;
+    public float musicVolumen = 0.5f;
      
     private Vector2 input;
 
