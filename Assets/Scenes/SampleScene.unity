@@ -1351,6 +1351,7 @@ GameObject:
   - component: {fileID: 2011643243}
   - component: {fileID: 2011643244}
   - component: {fileID: 2011643245}
+  - component: {fileID: 2011643246}
   m_Layer: 0
   m_Name: Pj
   m_TagString: Player
@@ -1487,6 +1488,7 @@ MonoBehaviour:
   rb: {fileID: 0}
   speed: 30
   rotation: 35
+  musicVolumen: 0.5
 --- !u!54 &2011643243
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1547,6 +1549,18 @@ MonoBehaviour:
   OverrideAttenuation: 0
   OverrideMinDistance: 1
   OverrideMaxDistance: 20
+--- !u!114 &2011643246
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2011643236}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0df14f07ea307c7498b4ad1ade9b7b91, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2143804150
 GameObject:
   m_ObjectHideFlags: 0
